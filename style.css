@@ -581,8 +581,19 @@ input[type=checkbox] {
     color: #047aed;
     box-shadow: 2px 2px 30px rgba(20, 97, 212, 0.12);
     animation: fade .3s;
-
 }
+
+
+/* Fade effect ============================================= */
+@keyframes fade{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
 .blog-box:hover .blog-box-img a{
     display: flex;
 
@@ -660,17 +671,7 @@ input[type=checkbox] {
 
 
 
-/* 
 
-Fade effect =============================================
-@keyframes fade{
-    0%{
-        opacity: 0;
-    }
-    100%{
-        opacity: 1;
-    }
-} */
 
 .blog-box-content{
     display: flex;
