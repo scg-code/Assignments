@@ -77,19 +77,16 @@ h4 a {
     font-size: 18px;
 }
 
-
-.menu li:hover {
-    border-bottom: 2px white solid;
-    transform: scale(110%);
-}
-
 .menu li {
     padding: 5px 14px;
-    transition: 0.3s;
+    transition: border-bottom 0.3s;
+    border-bottom: 2px transparent solid;
+}
+.menu li:hover {
+    border-bottom: 2px white solid;
 }
 
 .dropdown {
-    background-color: rgb(1, 139, 139);
     padding: 1em 0;
     position: absolute;
     display: none;
@@ -128,9 +125,12 @@ input[type=checkbox] {
     transform: scale(120%);
 }
 
+/* Spinng e in logo ===================================*/
+
 .e-spin {
     display: inline-block;
     animation: spin 3s infinite linear;
+    color: #deb887;
 }
 @keyframes spin {
     0% {
@@ -150,7 +150,6 @@ input[type=checkbox] {
     justify-content: space-between;
     align-items: center;
     padding: 10px;
-    /* height: 100vh; */
 }
 
 .hero-child {
@@ -182,7 +181,6 @@ input[type=checkbox] {
 /* tech stack icons ======================================*/
 
 .hero ul {
-    
     padding: 20px 0;
     font-size: 200%;
     list-style-type none;
@@ -305,7 +303,7 @@ input[type=checkbox] {
 }
 
 
-/* Contact Me Section =====================================*/
+/* Socials =====================================*/
 .contact {
     display: flex;
     flex-direction: column;
@@ -499,6 +497,17 @@ input[type=checkbox] {
 
 /* Blog Section============================================== */
 
+.back-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #deb887;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
 #blog{
     display: flex;
     flex-direction: column;
@@ -582,7 +591,7 @@ input[type=checkbox] {
     filter: blur(3px);
 }
 
-/* Blog Sub Directory=========================================== */
+/* Blog Sub Directories=========================================== */
 
 #blog1 {
     display: flex;
@@ -651,9 +660,9 @@ input[type=checkbox] {
 
 
 
+/* 
 
-
-/* Fade effect ============================================= */
+Fade effect =============================================
 @keyframes fade{
     0%{
         opacity: 0;
@@ -661,7 +670,7 @@ input[type=checkbox] {
     100%{
         opacity: 1;
     }
-}
+} */
 
 .blog-box-content{
     display: flex;
