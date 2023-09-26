@@ -1,5 +1,8 @@
+/* Imported font style Poppins */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
 
+
+/* Create primary color for whole website */
 :root {
     --primary-color: #047aed;
 }
@@ -49,7 +52,7 @@ h4 a {
     text-decoration: underline;
 }
 
-/* Navbar Styling & Effects ============================*/
+/* Navbar Styling & Effects ================================*/
 .navbar {
     display: flex;
     align-items: center;
@@ -176,7 +179,7 @@ input[type=checkbox] {
    }
 
 
-/* tech stack icons ===================================*/
+/* tech stack icons ======================================*/
 
 .hero ul {
     
@@ -302,7 +305,7 @@ input[type=checkbox] {
 }
 
 
-/* Contact Me Section ==================================*/
+/* Contact Me Section =====================================*/
 .contact {
     display: flex;
     flex-direction: column;
@@ -385,20 +388,22 @@ input[type=checkbox] {
     transform: scale(1.2);
 }
 
-/* Footer ============================================*/
+/* Footer ==============================================*/
 
 
 .footer {
     background-color: #047aed;
     color: #fff;
     padding: 10px;
-    text-align: center;
+    /* text-align: center; */
     font-size: 12px;
+    display: flex;
+    justify-content: center;
 }
     
 
 
-/* About me page ===================================*/
+/* About me page ========================================*/
 
 .about-container {
     display: flex;
@@ -472,7 +477,7 @@ input[type=checkbox] {
     transform: scale(1.5);
 }
 
-/* resume */
+/* resume ==================================================*/
 
 .resume-button {
     margin-top: 20px;
@@ -492,7 +497,7 @@ input[type=checkbox] {
     transform: scale(110%);
 }
 
-/* Blog Section============================ */
+/* Blog Section============================================== */
 
 #blog{
     display: flex;
@@ -577,6 +582,78 @@ input[type=checkbox] {
     filter: blur(3px);
 }
 
+/* Blog Sub Directory=========================================== */
+
+#blog1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0;
+    background-color: #f9f8ff;
+}
+
+.blog-heading1 h3{
+    font-size: 2.4rem;
+    color: #252525;
+    font-weight: 800;
+    text-transform: uppercase;
+    line-height: 2.4rem;
+}
+.blog-heading1 strong{
+    color: #047aed;
+    font-size: 1rem;
+    font-weight: 500;
+    letter-spacing: 0.3px;
+}
+.blog-box-container1 {
+    display: flex;
+    max-width: 1050px;
+    width: 90%;
+    margin-top: 50px;
+}
+.contact1 {
+    display: flex;
+    flex-direction: column;
+    margin: 5vw;
+    align-items:center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.contact1 h2 {
+    color: #047aed;
+}
+
+.contact1 ul{
+    list-style: none;
+    display: flex;
+    justify-content: flex-start;
+    filter: drop-shadow(5px 5px 10px #555);
+    
+}
+
+.contact1 li {
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    
+}
+
+.contact1 li i {
+    margin-right: 10px;
+    font-size: 24px;
+}
+
+
+
+
+
+
+
+
+
+/* Fade effect ============================================= */
 @keyframes fade{
     0%{
         opacity: 0;
@@ -645,7 +722,7 @@ input[type=checkbox] {
     font-weight: 500;
 }
 
-/* Blog Responsive================ */
+/* Blog Responsive======================================= */
 @media(max-width:920px) {
     .blog-box-container{
         grid-template-columns: 1fr 1fr;
@@ -662,7 +739,7 @@ input[type=checkbox] {
     }
 }
 
-/* Projects */
+/* Projects ================================================*/
 
 .projects-stack{
     display: flex;
