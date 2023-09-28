@@ -304,7 +304,7 @@ width: 100%;
   }
   input[type=checkbox]:checked ~ .menu {
     display: block;
-  }
+}
   .hamburger {
     display: block;
   }
@@ -319,6 +319,18 @@ width: 100%;
     z-index: 5;
   }
 }
+
+#blog {
+margin-top: 220px;
+}
+
+input[type=checkbox]:checked ~ .navbar .menu {
+    overflow-y: scroll;
+    max-height: calc(100vh - 60px);
+}
+
+
+
 
 
 /* Socials =====================================*/
