@@ -7,83 +7,100 @@
     <link rel="stylesheet" href="style.css">
     <title>Home</title>
 </head>
+
 <body>
     <header>
-        <!-- Navigation -->
-        <nav class="navbar">
-            <!-- Logo -->
-            <div class="logo"><a href="index.html">Samu<span class="e-spin">e</span>l.</a></div>
-            <!-- Menu -->
-            <ul class="nav-links">
-                <!-- Hamburger Toggle -->
-                <input type="checkbox" id="checkbox-toggle"/>
-                <label for="checkbox-toggle" class="hamburger">&#9776;</label>
-                <!-- Navigation Menu -->
-                <div class="menu">
+    <!--Navbar----------------------------------------------------------->
+      <nav class="navbar">
+    <!--Logo------------------------------------------------------------->
+        <div class="logo"><a href="index.html">Samu<span class="e-spin">e</span>l.</a></div>
+    <!--Navigation Menu-------------------------------------------------->
+        <ul class="nav-links">
+            
+    <!--Hamburger Toggle------------------------------------------------->
+            <input type="checkbox" id="checkbox-toggle"/>
+            <label for="checkbox-toggle" class="hamburger">&#9776;</label>
+
+    <!--Nav List---------------------------------------------------------->
+            <div class="menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="contact.html">Contact</a></li>
+
+    <!--Drop Down Menu----------------------------------------------------->
+                <ul class="dropdown">
                     <li><a href="index.html">Home</a></li>
                     <li><a href="about.html">About</a></li>
                     <li><a href="projects.html">Projects</a></li>
                     <li><a href="blog.html">Blog</a></li>
                     <li><a href="contact.html">Contact</a></li>
-                    <!-- Drop Down Menu -->
-                    <ul class="dropdown">
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="about.html">About</a></li>
-                        <li><a href="projects.html">Projects</a></li>
-                        <li><a href="blog.html">Blog</a></li>
-                        <li><a href="contact.html">Contact</a></li>
-                    </ul>
-                </div>
-            </ul>
-        </nav>
-    </header>
-
-    <!-- Main Content -->
-    <main>
-        <!-- Hero Section -->
-        <section class="hero">
-            <article class="hero-child about">
-                <h1>Hi, I'm Samuel Gifford</h1>
-                <h2>Full-Stack Web Developer</h2>
-                <p>
-                    I am currently completing a 6-month full-stack web developer bootcamp with Coder Academy. Feel free to connect with me, explore my <a href="projects.html">Projects</a>, and read my latest <a href="blog.html">Blogs</a>. You can also reach out to me through the <a href="contact.html">Contact</a> section or my Socials below.
-                </p>
-                <!-- Tech Stack -->
-                <ul class="techstack">
-                    <li class="html"><i class="fa-brands fa-html5"></i></li>
-                    <li class="css"><i class="fa-brands fa-css3-alt"></i></li>
-                    <li class="js"><i class="fa-brands fa-square-js"></i></li>
-                    <li class="py"><i class="fa-brands fa-python"></i></li>
-                    <li class="react"><i class="fa-brands fa-react"></i></li>
-                    <li class="node"><i class="fa-brands fa-node-js"></i></li>
                 </ul>
-            </article>
-            <article class="hero-child pic">
-                <img src="images/me-removebg-preview.png" alt="Samuel">
-            </article>
-        </section>
 
-        <!-- Contact button -->
-        <section class="contact-button">
-            <a href="contact.html">Contact Me</a>
-        </section>
+            </div>
 
-        <!-- Socials -->
-        <section class="contact">
-            <h2>Socials</h2>
-            <ul>
-                <li class="github"><a href="https://github.com/scg-code"><i class="fa-brands fa-github"></i></a></li>
-                <li class="linkedin"><a href="https://linkedin.com/in/samuel-gifford"><i class="fa-brands fa-linkedin"></i></a></li>
-                <li class="instagram"><a href="https://www.instagram.com/samuel.conor/?hl=en"><i class="fa-brands fa-square-instagram"></i></a></li>
+      </nav>
+    </header>
+    
+    <!--Hero Section-------------------------------------------------------->
+<main>
+    <section>
+        <div class="hero">
+            <div class="hero-child about">
+            <h1>Hi, I'm Samuel Gifford</h1>
+            <h2>full-stack web developer.</h2>
+            <h4>I am currently completing a 6-month full-stack web developer bootcamp with Coder Academy. Feel free to connect with me, explore my <a href="/src/projects.html">Projects,</a> and read my latest <a href="/src/blog.html">Blogs.</a> You can also reach out to me through the <a href="/src/contact.html">Contact</a> section or my Socials below.</h4>
+            
+            
+    <!-- Tech Stack------------------------------------------------->
+            <ul class="techstack">
+                <li class="html"><i class="fa-brands fa-html5"></i></li>
+                <li class="css"><i class="fa-brands fa-css3-alt"></i></li>
+                <li class="js"><i class="fa-brands fa-square-js"></i></li>
+                <li class="py"><i class="fa-brands fa-python"></i></li>
+                <li class="react"><i class="fa-brands fa-react"></i></li>
+                <li class="node"><i class="fa-brands fa-node-js"></i></li>
             </ul>
-        </section>
-    </main>
-
-    <!-- Footer -->
-    <footer class="footer">
-        <div class="copyright">
-            <p>&copy; 2023 Samuel Gifford</p>
+            </div>
+            <div class="hero-child pic">
+                <img src="images/me-removebg-preview.png" alt="Samuel">
+    
         </div>
+        </div>
+        </section>
+
+        
+        
+        <!--Contact button------------------------------------------------------>
+        <section>
+            <div class="contact-button">
+                <a href="contact.html">Contact Me</a>
+            </div>
+        </section>
+
+        
+        
+        <!--Socials-------------------------------------------------------------->
+        <section>
+            <div class="contact">
+                <h2>Socials</h2>
+                <ul>
+                    <li class="github"><a href="https://github.com/scg-code"><i class="fa-brands fa-github"></i></a></li>
+                    <li class="linkedin"><a href="https://linkedin.com/in/samuel-gifford"><i class="fa-brands fa-linkedin"></i></a></li>
+                    <li class="instagram"><a href="https://www.instagram.com/samuel.conor/?hl=en"><i class="fa-brands fa-square-instagram"></i></a></li>
+                </ul>
+                </div>
+                
+        </section>
+</main>    
+    <!--Footer---------------------------------------------------------------------->
+        
+    <footer class="footer">
+            <div class="copyright">
+                <p>Copyright &copy; 2023 <NAME>Samuel Gifford</p>
+            </div>
     </footer>
+    
 </body>
 </html>

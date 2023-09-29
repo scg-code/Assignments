@@ -264,6 +264,8 @@ width: 100%;
 }
 
 
+
+
 /* Mobile dimensions =====================================*/
 @media screen and (max-width: 768px) {
     .hero {
@@ -327,6 +329,8 @@ input[type=checkbox]:checked ~ .navbar .menu {
     overflow-y: scroll;
     max-height: calc(100vh - 60px);
 }
+
+
 
 
 
@@ -666,7 +670,7 @@ input[type=checkbox]:checked ~ .navbar .menu {
     margin: 5vw;
     align-items:center;
     justify-content: center;
-    flex-wrap: wrap;
+    padding: 20vw;
 }
 
 .contact1 h2 {
@@ -692,6 +696,13 @@ input[type=checkbox]:checked ~ .navbar .menu {
     margin-right: 10px;
     font-size: 24px;
 }
+
+
+
+
+
+
+
 
 
 .blog-box-content{
