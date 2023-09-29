@@ -597,6 +597,7 @@ input[type=checkbox]:checked ~ .navbar .menu {
     object-fit: cover;
     object-position: center;
     transition: 0.3s;
+    z-index: 0;
 }
 .blog-img-link{
     position: absolute;
