@@ -80,6 +80,25 @@ familiar with when hovered over for transparency.
 ![Contact Page Desktop](/docs/Contact.png)
 
 
+
+
+
+>### Screenshots Mobile 
+
+[Home page mobile](/docs/Home%20Mobile.png)
+
+[About Mobile](/docs/About%20mobile.png)
+
+[Projects Mobile](/docs/Projects%20mobile.png)
+
+[Blogs Mobile](/docs/blogs%20mobile.png)
+
+[Blogs expanded mobile](/docs/Blog%20opened%20mobile.png)
+
+[Contact Mobile](/docs/Contact%20Mobile.png)
+
+
+
 >### Target Audience
 
 
