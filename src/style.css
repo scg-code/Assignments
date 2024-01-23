@@ -51,7 +51,6 @@ h4 a {
     color: #047aed;
     text-decoration: underline;
 }
-
 /* Navbar Styling & Effects ================================*/
 .navbar {
     display: flex;
@@ -217,7 +216,6 @@ input[type=checkbox] {
 
 .js:hover {
     transform: rotate(360deg);
-    filter: grayscale(100);
 }
 
 .react {
@@ -227,7 +225,6 @@ input[type=checkbox] {
 
 .react:hover {
     transform: rotate(360deg);
-    filter: grayscale(100);
 }
 
 .py {
@@ -237,7 +234,6 @@ input[type=checkbox] {
 
 .py:hover {
     transform: rotate(360deg);
-    filter: grayscale(100);
 }
 
 .node {
@@ -247,7 +243,6 @@ input[type=checkbox] {
 
 .node:hover {
     transform: rotate(360deg);
-    filter: grayscale(100);
 }
 
 
@@ -319,6 +314,10 @@ width: 100%;
     background-color: #deb887;
     z-index: 5;
   }
+  .contact li i {
+    font-size: 32px;
+    margin-right: 15px;
+}
 }
 
 #blog {
@@ -339,7 +338,7 @@ input[type=checkbox]:checked ~ .navbar .menu {
     display: flex;
     flex-direction: column;
     margin: 5vw;
-    align-items:center;
+    align-items: center;
     justify-content: flex-start;
 }
 
@@ -347,25 +346,23 @@ input[type=checkbox]:checked ~ .navbar .menu {
     color: #047aed;
 }
 
-.contact ul{
+.contact ul {
     list-style: none;
     display: flex;
-    justify-content: flex-start;
-    filter: drop-shadow(5px 5px 10px #555);
-    
+    justify-content: center;
 }
 
 .contact li {
     margin: 10px;
     display: flex;
     align-items: center;
-    
 }
 
 .contact li i {
     margin-right: 10px;
     font-size: 24px;
 }
+
 
 .github a {
     color: black;
@@ -424,11 +421,14 @@ input[type=checkbox]:checked ~ .navbar .menu {
     background-color: #047aed;
     color: #fff;
     padding: 10px;
-    /* text-align: center; */
     font-size: 12px;
     display: flex;
     justify-content: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 }
+
     
 
 
