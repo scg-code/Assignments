@@ -337,7 +337,8 @@ input[type=checkbox]:checked ~ .navbar .menu {
 .contact {
     display: flex;
     flex-direction: column;
-    margin: 5vw;
+    /* Remove the margin property */
+    /* margin: 5vw; */
     align-items: center;
     justify-content: flex-start;
 }
@@ -363,7 +364,6 @@ input[type=checkbox]:checked ~ .navbar .menu {
     font-size: 24px;
 }
 
-
 .github a {
     color: black;
     transition: .3s;    
@@ -377,7 +377,6 @@ input[type=checkbox]:checked ~ .navbar .menu {
     color: #0b66c3;
     transition:.3s;
 }
-
 
 .linkedin a:hover {
     transform: scale(1.5);
